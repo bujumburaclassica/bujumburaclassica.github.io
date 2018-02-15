@@ -31,6 +31,8 @@ a{color: #EE3268}
     color: #fff;
     background-color: #EE3268;
     border-color: #EE3268;
+        line-height: 1.2
+
 }
 
 
@@ -53,6 +55,11 @@ a{color: #EE3268}
 
     height: 1.5rem;
 
+}
+
+.small, small {
+    font-size: 65%;
+    font-weight: 400;
 }
 
 .fons{background: #f0f0f0}
