@@ -72,7 +72,11 @@ a{color: #EE3268}
 .container {max-width: 90%}
 
 
-.seccio {padding: 3.5rem 0}
+.seccio {
+    padding: 3.5rem 0;
+    overflow-x: hidden;
+}
+
 
 .jumbotron {    margin-bottom: 0;  background: #f9f9f9
 }
