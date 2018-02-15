@@ -1,0 +1,117 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  font-family: 'Roboto';
+font-weight: 300;
+}
+
+
+input#exampleInputEmail1{height: 3.5rem}
+
+
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.0rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+
+li.nav-item{font-size: 0.9rem}
+
+a{color: #EE3268}
+
+
+.btn-corpo {
+    color: #fff;
+    background-color: #EE3268;
+    border-color: #EE3268;
+}
+
+
+.btn-corpo:hover {
+    color: #fff;
+    background-color: #b21a46;
+    border-color: #b21a46;
+}
+
+
+.jumbotron span.oi.oi-pin {margin-right: 0.5rem}
+
+
+.btn {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+}
+
+.progress {
+
+    height: 1.5rem;
+
+}
+
+.fons{background: #f0f0f0}
+
+.progress-bar {
+    background-color: #00d0ff;
+}
+
+
+.jumbotron h5 {
+    color: #EE3268;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.container {max-width: 90%}
+
+
+.seccio {padding: 3.5rem 0}
+
+.jumbotron {    margin-bottom: 0;  background: #f9f9f9
+}
+
+/** TELÈFON **/
+
+@media (max-width: 600px) {
+
+.jumbotron h1 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 1.4rem;
+}
+
+
+.jumbotron {padding: 4rem 0rem;}
+.rescont {text-align: center}
+
+
+}
+
+/** DESKTOP **/
+
+@media (min-width: 992px) {
+
+
+.navbar {
+
+    padding: 0.5rem 4rem;
+}
+
+.container {max-width: 80%}
+
+
+.jumbotron {padding: 7rem 0rem}
+
+
+
+
+  }
+
+
