@@ -132,6 +132,14 @@ footer li {font-size: 0.9rem}
 }
 
 
+.seccio {
+    padding: 4.5rem 0;
+    overflow-x: hidden;
+}
+
+
+
+
 .navbar {
 
     padding: 0.5rem 4rem;
