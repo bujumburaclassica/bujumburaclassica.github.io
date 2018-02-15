@@ -92,8 +92,14 @@ footer li {font-size: 0.9rem}
 }
 
 
-
-.embed-responsive-16by9 {margin-top: 3rem}
+.embed-responsive-16by9 {
+    margin-top: 3rem;
+    left: -11%;
+    width: 122% !important;
+    padding: 0;
+    position: relative;
+    margin-bottom: -17%;
+}
 
 
 .jumbotron {padding: 4rem 0rem;}
